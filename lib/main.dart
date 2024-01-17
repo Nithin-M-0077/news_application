@@ -36,7 +36,7 @@ class SplashScreen extends StatelessWidget {
     );
 
     return Scaffold(
-      backgroundColor: Colors.teal, // Set your desired background color
+      backgroundColor: Colors.teal,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
