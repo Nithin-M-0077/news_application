@@ -16,7 +16,7 @@ class _NewsWebViewState extends State<NewsWebView> {
     return WebviewScaffold(
       url: widget.url,
       appBar: AppBar(
-        backgroundColor: Colors.teal,
+        backgroundColor: const Color(0xff1d2951),
         toolbarHeight: MediaQuery.of(context).size.height*0.25,
         title: const Text("NEWS NOW",style: TextStyle(fontSize: 18,fontWeight: FontWeight.w900),),
       ),

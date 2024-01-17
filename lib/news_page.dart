@@ -225,7 +225,7 @@ class _NewsPageState extends State<NewsPage> {
               style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(
                     categoryItems[index] == selectedCategory
-                        ? Colors.teal.withOpacity(0.2)
+                        ? const Color(0xff1d2951)
                         : Colors.teal,
                   )),
               child: Text(categoryItems[index],style: const TextStyle(fontSize: 12,fontWeight: FontWeight.w900),),
